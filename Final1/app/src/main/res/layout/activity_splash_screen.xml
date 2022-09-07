@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD3D3"
+    android:orientation="vertical"
+    tools:context=".Splash_screen">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="418dp"
+        android:layout_height="375dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="296dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/gif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="292dp"
+        android:fontFamily="@font/inder"
+        android:text="ENJOY"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
